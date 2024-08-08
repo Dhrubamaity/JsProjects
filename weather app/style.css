@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+.box {
+    margin: auto;
+    max-width: 412px;
+    /* height: 570px; */
+    margin-top: 30px;
+    border-radius: 30px;
+    background: linear-gradient(239deg, rgb(102, 254, 135) 6%, rgb(219, 60, 255) 100%);
+}
+.topper{
+    padding: 40px;
+    display: flex;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.searchbar {
+    color: rgb(11, 10, 10);
+    width: 250px;
+    max-width:300px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid white;
+    padding-left: 20px;
+    box-shadow: 2px 2px 4px black , 2px 2px 4px rgb(111, 110, 110) inset ;
+}
+
+.searchicon {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    background-color: white;
+    box-shadow: 2px 2px 4px black , 2px 2px 4px rgb(111, 110, 110) inset;
+    border-radius: 50%;
+    border: 1px solid rgb(253, 252, 252);
+    left: 7px;
+    margin-top: 3px; 
+}
+.searchicon img{
+    width: 20px;
+    background-size: cover;
+    margin-left: 14px;
+    margin-top: 14px;
+}
+
+.midbar{
+    padding-bottom: 40px;
+    position: relative;
+    width:60% ;
+    height: 270px;
+    margin: auto;
+    border-radius: 20px;
+}
+.image{
+    background-size: cover;
+    width:150px;
+    padding-left: 40px;
+    margin: auto;
+    height: 155px;
+}
+.temp{
+    height: 85px;
+    font-size: 66px;
+    text-align: center;
+    justify-content: center;
+}
+.city{
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    
+}
+.bottom{
+    height: 80px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    column-gap: 40px;
+    padding: 30px;
+    font-size: 12px;
+    padding-right: 20px;
+}
+.humidity{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    width: 35%;
+    border-radius: 20px;
+    padding-top: 20px;
+    
+}
+.humidity img{
+    height: 29px;
+    width: 30px;
+    background-size: cover;
+    margin-top: 10px;
+}
+.humidity span{
+    font-size: 32px;
+    margin-left:1rem;
+}
+.windspeed{
+    display: flex;
+    width: 45%;
+     border-radius: 20px;
+     padding-top: 20px;
+}
+.windspeed img{
+    height: 20px;
+    width: 35px;
+    margin-bottom: 10px;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.windspeed span{
+    font-size: 32px;
+    margin-left: 12px;
+}
+.midbar{
+    display: none;
+}
+.bottom{
+    display: none;
+}
+.error{
+position: relative;
+  font-size: 12px;
+  margin-top: -20px;
+  margin-left: 50px;
+  padding-bottom: 20px;
+  display: none;
+}
