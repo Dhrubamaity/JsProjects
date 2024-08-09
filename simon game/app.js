@@ -38,7 +38,7 @@ function levelup() {
     usersqn = [];
     level = level + 1;
     hint.innerText = `Level - ${level}`;
-    hint.style.backgroundColor = "#FFFFFF";
+    hint.style.backgroundColor = "none";
 
     let ranind = Math.floor(Math.random() * 3);
     let rancol = btns[ranind];

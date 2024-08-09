@@ -16,9 +16,10 @@ h1{
     display: flex;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 46px;
     justify-content: center;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 130px;
 }
 .box {
     display: fkex;

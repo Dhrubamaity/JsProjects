@@ -5,10 +5,24 @@
     color: white;
     
 }
+h1{ 
+    width: 100%;
+   margin-top: 7%;
+    font-size: 42px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../asset/bg2.jpg);
+    background-size: cover;
+}
 .box {
     margin: auto;
     max-width: 412px;
-    /* height: 570px; */
     margin-top: 30px;
     border-radius: 30px;
     background: linear-gradient(239deg, rgb(102, 254, 135) 6%, rgb(219, 60, 255) 100%);

@@ -2,10 +2,10 @@ let btn = document.querySelector("button");
 
 btn.addEventListener("click", function () {
     let h3 = document.querySelector("h3");
-    let body = document.querySelector("body");
+    let h1 = document.querySelector("h1");
     let randomcolour = getrandomcolour();
     h3.innerText = randomcolour;
-    body.style.backgroundColor = randomcolour;
+    h1.style.backgroundColor = randomcolour;
 
     let div = document.querySelector(".box>div");
     div.style.backgroundColor = randomcolour;
